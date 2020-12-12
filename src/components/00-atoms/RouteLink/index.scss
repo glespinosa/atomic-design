@@ -1,0 +1,35 @@
+@import '../../settings/variables';
+
+@mixin linkUnderline {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    background: $secondary-font-color;
+}
+
+.link {
+    text-decoration: none;
+    color: $primary-font-color;
+    position: relative;
+
+    &::after {
+        transition: width 0.3s;
+        width: 0;
+        @include linkUnderline;
+    }
+
+    &:hover::after {
+        width: 50%;
+    }
+}
+
+.active-link {
+    font-weight: bold;
+    color: $secondary-font-color;
+    &::after {
+        @include linkUnderline;
+        width: 50%;
+    }
+}

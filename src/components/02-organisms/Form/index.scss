@@ -1,0 +1,17 @@
+@import '../../settings/variables';
+
+.form {
+    border: 3px dashed $secondary-font-color;
+    padding: 10px;
+    text-align: center;
+    & > label,
+    div {
+        padding: 10px 0;
+    }
+
+    &-error {
+        .label {
+            color: red;
+        }
+    }
+}

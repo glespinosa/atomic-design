@@ -1,0 +1,12 @@
+.nav-list {
+    list-style: none;
+    display: flex;
+
+    li {
+        padding: 5px;
+    }
+
+    li:not(:last-child) {
+        border-right: 2px dashed orange;
+    }
+}

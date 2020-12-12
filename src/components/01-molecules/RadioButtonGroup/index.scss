@@ -1,0 +1,22 @@
+@import '../../settings/variables';
+.radio-button-group {
+    input {
+        margin: 0 5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+
+        border: 2px solid $primary-font-color;
+        transition: 0.2s all linear;
+        position: relative;
+        top: 4px;
+        outline: none;
+    }
+    input:checked {
+        border: 6px solid $secondary-font-color;
+    }
+}

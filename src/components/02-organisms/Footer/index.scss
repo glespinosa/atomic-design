@@ -1,0 +1,22 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    padding: 5px;
+    background: rgb(245, 159, 53);
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .desc {
+            color: #fff;
+        }
+    }
+}

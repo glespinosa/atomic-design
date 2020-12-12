@@ -1,0 +1,10 @@
+@import '../../settings/variables';
+
+.text-input {
+    outline: 0;
+    border: 1px solid $secondary-font-color;
+
+    &:focus {
+        box-shadow: 0 0 5px $secondary-font-color;
+    }
+}

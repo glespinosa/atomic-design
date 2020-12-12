@@ -1,0 +1,12 @@
+.linear-list {
+    display: flex;
+    overflow-x: auto;
+    .image-panel {
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    .image-panel:last-child {
+        margin-right: 0;
+    }
+}

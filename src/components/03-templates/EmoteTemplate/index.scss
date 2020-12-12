@@ -1,0 +1,13 @@
+@import '../../settings/variables';
+
+.emote-template {
+    display: grid;
+    gap: 10px;
+}
+
+@media screen and (min-width: $tablet-size) {
+    .emote-template {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
