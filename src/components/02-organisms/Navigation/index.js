@@ -6,7 +6,7 @@ function Navigation({ children, linkList }) {
         <div className='navigation'>
             <RouteList linkList={linkList} />
             {children !== undefined && (
-                <div className='navigation-anchor'>{children}</div>
+                <div className='navigation-children'>{children}</div>
             )}
         </div>
     )
