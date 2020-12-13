@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Emote from './pages/Emote'
 import Dog from './pages/Dog'
 import { Footer, Navigation } from './components/02-organisms'
-import { Link } from './components/00-atoms'
+import { Description, Heading, Link } from './components/00-atoms'
 import { VscGithubInverted } from 'react-icons/vsc'
 function App() {
     const linkList = [
@@ -21,6 +21,12 @@ function App() {
                 >
                     <VscGithubInverted />
                 </Link>
+                <Heading>Atomic Design System</Heading>
+                <Description>
+                    The goal of this application is to enhance my skills in
+                    using atomic design pattern, view my code by clicking the
+                    github icon above.
+                </Description>
             </Navigation>
             <Switch>
                 <Route path='/' exact component={Emote} />

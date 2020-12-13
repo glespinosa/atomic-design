@@ -4,8 +4,13 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-
     &-anchor {
         margin-top: 10px;
+    }
+
+    &-anchor,
+    .title,
+    .desc {
+        text-align: center;
     }
 }
