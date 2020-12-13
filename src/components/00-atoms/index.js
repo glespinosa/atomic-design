@@ -4,6 +4,7 @@ import Heading from './Heading'
 import Icon from './Icon'
 import Image from './Image'
 import Label from './Label'
+import Link from './Link'
 import RouteLink from './RouteLink'
 import TextInput from './TextInput'
 export {
@@ -13,6 +14,7 @@ export {
     Icon,
     Image,
     Label,
+    Link,
     RouteLink,
     TextInput,
 }

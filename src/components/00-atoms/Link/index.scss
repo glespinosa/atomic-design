@@ -1,0 +1,11 @@
+@import '../../settings/variables';
+
+.anchor-link {
+    font-size: 28px;
+    color: $primary-font-color;
+    transition-property: color;
+    transition: 0.3s ease-in;
+    &:hover {
+        color: black;
+    }
+}
